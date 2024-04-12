@@ -1,68 +1,117 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;700&display=swap');
 
+:root {
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #213547;
+  background: linear-gradient(45deg, rgba(255,102,0,1) 0%, rgba(153,0,204,1) 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  text-decoration: none;
 }
 
 body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.size-full {
+  height: 100vh;
+  width: 100vw;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+.button {
+  color: #f1f1f1;
+  border-radius: 20px;
+  border: 1px solid purple;
+  padding: 1rem 2rem;
+  font-size: 1.2em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background: linear-gradient(45deg, rgba(255,102,0,1) 0%, rgba(153,0,204,1) 100%);
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: ease-in-out .3s;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.button:hover {
+  background: linear-gradient(45deg, rgba(204,85,0,1) 0%, rgba(102,0,153,1) 100%);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.container-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container-home img {
+  width: 30%;
+  background: #f1f1f199;
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.border-effect {
+  -webkit-box-shadow: 0px 0px 2px 0px #797979; 
+  box-shadow: 0px 0px 2px 0px #797979;
+}
+
+.container-question {
+  background: #f3f3f3;
+  height: 80%;
+  width: 80%;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.select-holder {
+  display: flex;
+  gap: 5rem;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #888;
+  width: 30%;
+  font-size: 1rem;
+}
+.modal-content button {
+  margin: 0;
+  font-size: 1rem;
 }
