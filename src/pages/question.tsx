@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { questions } from '../data/questions'
 import { Button } from '../components/button'
+import LogoOlimp from '../assets/images/logo-olimp.png'
 
 interface QuestionType {
   indexCorrect: number,
@@ -29,15 +30,24 @@ export function Question() {
     setShowModal(true)
   }
 
+  useEffect(() => {
+    const originalBackground = document.documentElement.style.background
+    document.documentElement.style.background = 'linear-gradient(45deg, rgba(255,102,0,1) 0%, rgba(153,0,204,1) 100%)'
+    return () => {
+      document.documentElement.style.background = originalBackground
+    }
+  }, [])
+
   return (
     <div className='size-full container-center'>
       <div className='container-center container-question border-effect'>
         {question ? (
           <>
+            <img src={LogoOlimp} className='logo-olimp' />
             <h1>{question.title}</h1>
             <div className='select-holder'>
               {question.alternativa.map((option, index) => (
-                <Button to='' role='button' onClick={(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+                <Button to='' role='button' className='button-select' onClick={(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
                   event.preventDefault()
                   handleClick(index)
                 }}>{option}</Button>

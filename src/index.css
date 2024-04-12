@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
 
 :root {
   color-scheme: light dark;
   color: #213547;
-  background: linear-gradient(45deg, rgba(255,102,0,1) 0%, rgba(153,0,204,1) 100%);
+  background: #f1f1f1;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,6 +18,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.main-title {
+  font-family: 'Braah One', sans-serif;
+  font-size: 4rem;
 }
 
 a {
@@ -38,9 +44,9 @@ body {
 
 .button {
   color: #f1f1f1;
-  border-radius: 20px;
+  border-radius: 12px;
   border: 1px solid purple;
-  padding: 1rem 2rem;
+  padding: 1rem 4rem;
   font-size: 1.2em;
   font-weight: 500;
   font-family: inherit;
@@ -52,17 +58,29 @@ body {
   background: linear-gradient(45deg, rgba(204,85,0,1) 0%, rgba(102,0,153,1) 100%);
 }
 
+.button-orange {
+  background: #ff6600;
+}
+.button-orange:hover {
+  background: #cc5500;
+}
+
+.button-select {
+  padding: .5rem 1rem;
+}
+
 .container-center {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+.container-home {
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
 .container-home img {
   width: 30%;
-  background: #f1f1f199;
-  backdrop-filter: blur(10px);
-  padding: 2rem;
-  border-radius: 10px;
 }
 
 .border-effect {
@@ -78,6 +96,7 @@ body {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .select-holder {
@@ -114,4 +133,8 @@ body {
 .modal-content button {
   margin: 0;
   font-size: 1rem;
+}
+
+.logo-olimp {
+  width: 15%;
 }

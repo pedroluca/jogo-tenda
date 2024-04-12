@@ -2,13 +2,13 @@ import { ComponentProps } from "react"
 import { Link } from "react-router-dom"
 
 interface ButtonProps extends ComponentProps<'a'> {
-  children: string,
   to: string,
-  buttonClick?: () => void
+  buttonClick?: () => void,
+  className?: string
 }
 
-export function Button({children, to, buttonClick, ...props}: ButtonProps) {
+export function Button({to, buttonClick, className, ...props}: ButtonProps) {
   return (
-    <Link role='button' to={to} className='border-effect button' {...buttonClick} {...props}>{children}</Link>
+    <Link role='button' to={to} className={`border-effect button ${className}`} {...buttonClick} {...props}>{props.children}</Link>
   )
 }
