@@ -10,17 +10,17 @@ export const questions = [
     alternativa: ["Brasília", "Orlando", "Nova Iorque", "Londres"]
   },
   {
-    title: "Qual a capital do Brasil?",
+    title: "Qual é a capital do Brasil?",
     indexCorrect: 0,
     alternativa: ["Brasília", "São Paulo", "Rio de Janeiro", "Belo Horizonte"]
   },
   {
-    title: "Qual a capital dos Estados Unidos?",
+    title: "Qual é a capital dos Estados Unidos?",
     indexCorrect: 0,
     alternativa: ["Washington, D.C.", "Nova York", "Los Angeles", "Chicago"]
   },
   {
-    title: "Qual a maior floresta tropical do mundo?",
+    title: "Qual é a maior floresta tropical do mundo?",
     indexCorrect: 0,
     alternativa: ["Floresta Amazônica", "Floresta Congolesa", "Floresta do Sudeste Asiático", "Mata Atlântica"]
   },
