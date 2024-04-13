@@ -176,7 +176,7 @@ export const questions = [
   },
   {
     title: "Quanto é 7 + 3 x 6?",
-    indexCorrect: 3,
+    indexCorrect: 2,
     alternativa: ["30", "20", "25", "60"]
   },
   {
@@ -186,7 +186,7 @@ export const questions = [
   },
   {
     title: "Quanto é 24 ÷ 4 + 10 – 2?",
-    indexCorrect: 2,
+    indexCorrect: 3,
     alternativa: ["12", "20", "16", "14"]
   },
   {
