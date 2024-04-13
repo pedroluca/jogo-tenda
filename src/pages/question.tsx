@@ -62,7 +62,7 @@ export function Question() {
         <div id="myModal" className="modal">
           <div className="modal-content">
             <p>{message}</p>
-            <Button to='/' id="modalBtn" onClick={() => setShowModal(false)}>OK</Button>
+            <Button to='/' id="modalBtn" className='modal-mobile' onClick={() => setShowModal(false)}>OK</Button>
           </div>
         </div>
       )}

@@ -138,3 +138,37 @@ body {
 .logo-olimp {
   width: 15%;
 }
+
+@media screen and (max-width: 768px) {
+  .container-home img {
+    width: 70%;
+  }
+
+  .select-holder {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .container-question {
+    gap: 1rem;
+  }
+  .container-question h1 {
+    font-size: 1.2rem;
+  }
+
+  .modal-content {
+    width: 70%;
+  }
+
+  .modal-mobile {
+    width: 40%;
+    padding: .5rem;
+    text-align: center;
+  }
+
+  body,
+  .size-full {
+    min-height: 100vh;
+    height: auto;
+  }
+}
