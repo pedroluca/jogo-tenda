@@ -45,7 +45,7 @@ body {
 .button {
   color: #f1f1f1;
   border-radius: 12px;
-  border: 1px solid purple;
+  border: 1px solid #800080;
   padding: 1rem 4rem;
   font-size: 1.2em;
   font-weight: 500;
@@ -137,6 +137,14 @@ body {
 
 .logo-olimp {
   width: 15%;
+}
+
+.refresh-img {
+  width: 40px;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {

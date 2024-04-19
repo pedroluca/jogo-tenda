@@ -193,5 +193,10 @@ export const questions = [
     title: "Qual nome do escritor dos livros: “Senhora” e “Iracema”?",
     indexCorrect: 1,
     alternativa: ["Machado de Assis", "José de Alencar", "Jorge Amado", "Gil Vicente"]
+  },
+  {
+    title: "Quantos animais de cada Moisés colocou na arca?",
+    indexCorrect: 3,
+    alternativa: ["1 de cada", "2 de cada", "4 de cada", "Nenhum"]
   }
 ]

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { questions } from '../data/questions'
 import { Button } from '../components/button'
+import RefreshIcon from '../assets/images/refresh.svg'
 import LogoOlimp from '../assets/images/logo-olimp.png'
 
 interface QuestionType {
@@ -14,11 +15,15 @@ export function Question() {
   const [message, setMessage] = useState('')
   const [question, setQuestion] = useState<QuestionType | null>(null)
 
-  useEffect(() => {
+  const selectRandomQuestion = () => {
     if (Array.isArray(questions)) {
       const randomIndex = Math.floor(Math.random() * questions.length)
       setQuestion(questions[randomIndex])
     }
+  }
+
+  useEffect(() => {
+    selectRandomQuestion()
   }, [])
 
   const handleClick = (index: number) => {
@@ -41,6 +46,7 @@ export function Question() {
   return (
     <div className='size-full container-center'>
       <div className='container-center container-question border-effect'>
+        <img src={RefreshIcon} className='refresh-img' onClick={selectRandomQuestion} />
         {question ? (
           <>
             <img src={LogoOlimp} className='logo-olimp' />
