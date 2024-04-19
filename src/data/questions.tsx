@@ -10,11 +10,6 @@ export const questions = [
     alternativa: ["Brasília", "Orlando", "Nova Iorque", "Londres"]
   },
   {
-    title: "Qual é a capital do Brasil?",
-    indexCorrect: 0,
-    alternativa: ["Brasília", "São Paulo", "Rio de Janeiro", "Belo Horizonte"]
-  },
-  {
     title: "Qual é a capital dos Estados Unidos?",
     indexCorrect: 0,
     alternativa: ["Washington, D.C.", "Nova York", "Los Angeles", "Chicago"]
@@ -23,11 +18,6 @@ export const questions = [
     title: "Qual é a maior floresta tropical do mundo?",
     indexCorrect: 0,
     alternativa: ["Floresta Amazônica", "Floresta Congolesa", "Floresta do Sudeste Asiático", "Mata Atlântica"]
-  },
-  {
-    title: "Qual a moeda oficial do Brasil?",
-    indexCorrect: 0,
-    alternativa: ["Real", "Dólar americano", "Euro", "Libra esterlina"]
   },
   {
     title: "Qual a obra-prima de arte renascentista pintada por Leonardo da Vinci?",
@@ -43,26 +33,6 @@ export const questions = [
     title: "Qual a invenção revolucionou a comunicação a distância no século XIX?",
     indexCorrect: 0,
     alternativa: ["Telefone", "Rádio", "Televisão", "Computador"]
-  },
-  {
-    title: "Qual o nome do buscador de internet mais utilizado do mundo?",
-    indexCorrect: 0,
-    alternativa: ["Google", "Bing", "Yahoo", "DuckDuckGo"]
-  },
-  {
-    title: "Qual a capital do estado de São Paulo?",
-    indexCorrect: 0,
-    alternativa: ["São Paulo", "Campinas", "Santos", "Ribeirão Preto"]
-  },
-  {
-    title: "Qual a capital do estado do Rio de Janeiro?",
-    indexCorrect: 0,
-    alternativa: ["Rio de Janeiro", "Niterói", "Petrópolis", "Angra dos Reis"]
-  },
-  {
-    title: "Qual a capital do estado de Minas Gerais?",
-    indexCorrect: 0,
-    alternativa: ["Belo Horizonte", "Uberlândia", "Juiz de Fora", "Contagem"]
   },
   {
     title: "Qual a data em que se comemora o Dia da Independência do Brasil?",
@@ -85,11 +55,6 @@ export const questions = [
     alternativa: ["Europa", "América do Sul", "Ásia", "África"]
   },
   {
-    title: "Qual o planeta em que vivemos?",
-    indexCorrect: 2,
-    alternativa: ["Marte", "Vênus", "Terra", "Júpiter"]
-  },
-  {
     title: "O que é cultura?",
     indexCorrect: 1,
     alternativa: ["Um conjunto de regras que devemos seguir.", "Um conjunto de costumes, crenças e valores que um grupo de pessoas compartilha.", "Um tipo de planta que cresce no jardim.", "Um animal que vive na floresta."]
@@ -108,11 +73,6 @@ export const questions = [
     title: "Qual é o nome do jogo de tabuleiro mais popular do mundo?",
     indexCorrect: 3,
     alternativa: ["War", "Banco imobiliário", "Ludo", "Xadrez"]
-  },
-  {
-    title: "Qual é o nome do esporte mais popular do mundo?",
-    indexCorrect: 1,
-    alternativa: ["Baquete", "Futebol", "Vôlei", "Tênis"]
   },
   {
     title: "Qual o nome do artista que pintou a Mona Lisa?",
@@ -155,11 +115,6 @@ export const questions = [
     alternativa: ["Zina Aita", "Anita Mafalti", "Tarsila do Amaral", "Guiomar Novais"]
   },
   {
-    title: "O que é diversidade cultural?",
-    indexCorrect: 1,
-    alternativa: ["Valorizar somente sua cultura", "Ter uma variedade de culturas em uma área", "Ter somente uma cultura", "Não ter nenhum tipo de cultura"]
-  },
-  {
     title: "Em uma loja de informática, Paulo comprou: um computador no valor de 2200 reais, uma impressora por 700 reais e dois cartuchos que custam 50 reais cada um. Os objetos foram pagos em 5 parcelas iguais. O valor de cada parcela, em reais, foi igual a:",
     indexCorrect: 2,
     alternativa: ["654", "494", "600", "560"]
@@ -195,12 +150,7 @@ export const questions = [
     alternativa: ["Anitta", "Ivete Sangalo", "Ana Castela", "Ludmila"]
   },
   {
-    title: "Qual país derrotou o Brasil por 7x1 na copa do mundo de 2014?",
-    indexCorrect: 2,
-    alternativa: ["Rússia", "Espanha", "Alemanha", "Portugal"]
-  },
-  {
-    title: "Quantas copas do mundo o Brasil já ganhou?",
+    title: "Quantas copas do mundo a Alemanha já ganhou?",
     indexCorrect: 1,
     alternativa: ["7", "5", "3", "2"]
   },
