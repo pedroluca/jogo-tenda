@@ -181,7 +181,7 @@ export const questions = [
   },
   {
     title: "De 0 a 100, quantos números 3 tem?",
-    indexCorrect: 2,
+    indexCorrect: 3,
     alternativa: ["20", "12", "11", "19"]
   },
   {
