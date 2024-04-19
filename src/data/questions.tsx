@@ -221,7 +221,7 @@ export const questions = [
   },
   {
     title: "Quem foi o campeão do Brasileirão em 2023?",
-    indexCorrect: 0,
+    indexCorrect: 1,
     alternativa: ["Flamengo", "Palmeiras", "Corinthians", "São Paulo"]
   },
   {
