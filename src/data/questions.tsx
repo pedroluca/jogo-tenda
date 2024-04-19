@@ -126,7 +126,7 @@ export const questions = [
   },
   {
     title: "Qual jogador de futebol que ganhou a Bola de Ouro em 2023?",
-    indexCorrect: 3,
+    indexCorrect: 2,
     alternativa: ["Neymar Júnior", "Cristiano Ronaldo", "Lionel Messi", "Kylian Mbappé"]
   },
   {
