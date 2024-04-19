@@ -152,7 +152,7 @@ export const questions = [
   {
     title: "Quantas copas do mundo a Alemanha já ganhou?",
     indexCorrect: 1,
-    alternativa: ["7", "5", "3", "2"]
+    alternativa: ["7", "4", "3", "5"]
   },
   {
     title: "Qual time de futebol ganhou mais copas do mundo?",
