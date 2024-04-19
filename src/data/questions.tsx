@@ -106,7 +106,7 @@ export const questions = [
   },
   {
     title: "Qual é o nome do jogo de tabuleiro mais popular do mundo?",
-    indexCorrect: 0,
+    indexCorrect: 3,
     alternativa: ["War", "Banco imobiliário", "Ludo", "Xadrez"]
   },
   {
@@ -161,7 +161,7 @@ export const questions = [
   },
   {
     title: "Em uma loja de informática, Paulo comprou: um computador no valor de 2200 reais, uma impressora por 700 reais e dois cartuchos que custam 50 reais cada um. Os objetos foram pagos em 5 parcelas iguais. O valor de cada parcela, em reais, foi igual a:",
-    indexCorrect: 1,
+    indexCorrect: 2,
     alternativa: ["654", "494", "600", "560"]
   },
   {
