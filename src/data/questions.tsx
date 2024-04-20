@@ -266,7 +266,7 @@ export const questions = [
   },
   {
     title: "Qual é o elemento químico representado por 'K'?",
-    indexCorrect: 2,
+    indexCorrect: 1,
     alternativa: ["Cálcio", "Potássio", "Cobre", "Cromo"]
   },
   {
