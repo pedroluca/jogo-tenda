@@ -421,7 +421,7 @@ export const questions = [
   },
   {
     title: "Qual é a fórmula química do dióxido de carbono?",
-    indexCorrect: 2,
+    indexCorrect: 1,
     alternativa: ["CO", "CO2", "C2O", "C2O2"]
   },
   {
