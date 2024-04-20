@@ -52,22 +52,7 @@ export const questions = [
   {
     title: "Qual o continente onde se localiza o Brasil?",
     indexCorrect: 1,
-    alternativa: ["Europa", "América do Sul", "Ásia", "África"]
-  },
-  {
-    title: "O que é cultura?",
-    indexCorrect: 1,
-    alternativa: ["Um conjunto de regras que devemos seguir.", "Um conjunto de costumes, crenças e valores que um grupo de pessoas compartilha.", "Um tipo de planta que cresce no jardim.", "Um animal que vive na floresta."]
-  },
-  {
-    title: "O que é arte?",
-    indexCorrect: 1,
-    alternativa: ["Uma brincadeira que inventamos com os amigos.", "Uma forma de expressão que usamos para mostrar nossos sentimentos e ideias.", "Uma música que ouvimos no rádio.", "Uma roupa que usamos em ocasiões especiais."]
-  },
-  {
-    title: "Quais são alguns exemplos de arte?",
-    indexCorrect: 1,
-    alternativa: ["Brincar de esconde-esconde com os amigos.", "Desenhar, pintar, cantar e dançar.", "Assistir vídeos engraçados na internet.", "Jogar videogame com os amigos."]
+    alternativa: ["Europa", "América do Sul", "América Central", "África"]
   },
   {
     title: "Qual é o nome do jogo de tabuleiro mais popular do mundo?",
@@ -107,7 +92,7 @@ export const questions = [
   {
     title: "A primeira capital do Brasil foi uma cidade do Nordeste. Qual?",
     indexCorrect: 0,
-    alternativa: ["Salvador", "João Pessoa", "São Luiz", "Recife"]
+    alternativa: ["Salvador", "São Luiz", "Porto Seguro", "Recife"]
   },
   {
     title: "Qual o nome da artista que pintou o quadro Abaporu e ficou muito reconhecida na semana de arte moderna de 22?",
@@ -118,16 +103,6 @@ export const questions = [
     title: "Em uma loja de informática, Paulo comprou: um computador no valor de 2200 reais, uma impressora por 700 reais e dois cartuchos que custam 50 reais cada um. Os objetos foram pagos em 5 parcelas iguais. O valor de cada parcela, em reais, foi igual a:",
     indexCorrect: 2,
     alternativa: ["654", "494", "600", "560"]
-  },
-  {
-    title: "Qual a raiz quadrada de 36?",
-    indexCorrect: 2,
-    alternativa: ["3", "9", "6", "7"]
-  },
-  {
-    title: "Qual a raiz quadrada de 49?",
-    indexCorrect: 1,
-    alternativa: ["8", "7", "5", "6"]
   },
   {
     title: "Quanto é 7 + 3 x 6?",
@@ -165,16 +140,6 @@ export const questions = [
     alternativa: ["Roberto Carlos", "Gustavo Lima", "Léo Santana", "Zezé de Camargo"]
   },
   {
-    title: "Quem foi o (a) vencedor (a) do Big Brother Brasil em 2021?",
-    indexCorrect: 2,
-    alternativa: ["Arthur Aguiar", "Amanda", "Juliette", "Thelma"]
-  },
-  {
-    title: "Quem foi o campeão do Brasileirão em 2023?",
-    indexCorrect: 1,
-    alternativa: ["Flamengo", "Palmeiras", "Corinthians", "São Paulo"]
-  },
-  {
     title: "Quem criou as três leis: Princípio da Inércia, da dinâmica e da ação e reação no século XVII?",
     indexCorrect: 2,
     alternativa: ["Isaac Bohr", "Albert Einstein", "Isaac Newton", "Ícaro Newton"]
@@ -195,14 +160,9 @@ export const questions = [
     alternativa: ["Machado de Assis", "José de Alencar", "Jorge Amado", "Gil Vicente"]
   },
   {
-    title: "Quantos animais de cada Moisés colocou na arca?",
+    title: "Quantos animais de cada espécie Moisés colocou na arca?",
     indexCorrect: 3,
     alternativa: ["1 de cada", "2 de cada", "4 de cada", "Nenhum"]
-  },
-  {
-    title: "Qual é a fórmula da água?",
-    indexCorrect: 1,
-    alternativa: ["CO2", "H2O", "O2", "H2"]
   },
   {
     title: "Qual é o maior planeta do sistema solar?",
@@ -318,11 +278,6 @@ export const questions = [
     title: "Quem pintou 'Guernica'?",
     indexCorrect: 0,
     alternativa: ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Francisco Goya"]
-  },
-  {
-    title: "Qual é a capital da Itália?",
-    indexCorrect: 1,
-    alternativa: ["Milão", "Roma", "Nápoles", "Florença"]
   },
   {
     title: "Quem escreveu 'O Sol é para todos'?",
@@ -448,11 +403,6 @@ export const questions = [
     title: "Qual é a integral de x dx?",
     indexCorrect: 0,
     alternativa: ["0.5x^2", "x^2", "2x", "x"]
-  },
-  {
-    title: "Qual é a capital da Itália?",
-    indexCorrect: 1,
-    alternativa: ["Milão", "Roma", "Nápoles", "Turim"]
   },
   {
     title: "Qual é a fórmula química do sal de cozinha?",
