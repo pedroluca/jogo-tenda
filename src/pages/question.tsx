@@ -13,6 +13,8 @@ interface QuestionType {
 export function Question() {
   const [showModal, setShowModal] = useState(false)
   const [message, setMessage] = useState('')
+  const [messageHeader, setMessageHeader] = useState('')
+  const [messageHeaderColor, setMessageHeaderColor] = useState('')
   const [question, setQuestion] = useState<QuestionType | null>(null)
 
   const selectRandomQuestion = () => {
@@ -28,9 +30,12 @@ export function Question() {
 
   const handleClick = (index: number) => {
     if (question && index === question.indexCorrect) {
-      setMessage('Resposta correta, parabéns!')
+      setMessageHeader('Resposta correta, parabéns!')
+      setMessageHeaderColor('resposta-certa')
     } else {
-      setMessage('A resposta está incorreta! A resposta certa é: ' + question?.alternativa[question.indexCorrect])
+      setMessageHeader('Resposta errada, que pena!')
+      setMessageHeaderColor('resposta-errada')
+      setMessage('A resposta certa é: ' + question?.alternativa[question.indexCorrect])
     }
     setShowModal(true)
   }
@@ -67,6 +72,7 @@ export function Question() {
       {showModal && (
         <div id="myModal" className="modal">
           <div className="modal-content">
+            <h1 className={messageHeaderColor}>{messageHeader}</h1>
             <p>{message}</p>
             <Button to='/' id="modalBtn" className='modal-mobile' onClick={() => setShowModal(false)}>OK</Button>
           </div>

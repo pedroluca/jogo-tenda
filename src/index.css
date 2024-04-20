@@ -97,6 +97,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 .select-holder {
@@ -129,6 +130,7 @@ body {
   border: 1px solid #888;
   width: 30%;
   font-size: 1rem;
+  text-align: center;
 }
 .modal-content button {
   margin: 0;
@@ -145,6 +147,14 @@ body {
   left: 1rem;
   top: 1rem;
   cursor: pointer;
+}
+
+.resposta-certa {
+  color: green;
+}
+
+.resposta-errada {
+  color: red;
 }
 
 @media screen and (max-width: 768px) {

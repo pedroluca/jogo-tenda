@@ -335,7 +335,7 @@ export const questions = [
     alternativa: ["Níquel", "Néon", "Nitrógenio", "Sódio"]
   },
   {
-    title: "Qual é o planeta mais pequeno do sistema solar?",
+    title: "Qual é o menor planeta do sistema solar?",
     indexCorrect: 0,
     alternativa: ["Mercúrio", "Vênus", "Terra", "Marte"]
   },
@@ -360,7 +360,7 @@ export const questions = [
     alternativa: ["Hélio", "Hidrogênio", "Oxigênio", "Néon"]
   },
   {
-    title: "Qual é o planeta mais grande do sistema solar?",
+    title: "Qual é o maior planeta do sistema solar?",
     indexCorrect: 1,
     alternativa: ["Marte", "Júpiter", "Saturno", "Urano"]
   },
