@@ -277,7 +277,7 @@ export const questions = [
   {
     title: "Qual é a distância média da Terra ao Sol?",
     indexCorrect: 3,
-    alternativa: ["149.6 milhões de km", "92.96 milhões de km", "1.496 milhões de km", "149.6 milhões de km"]
+    alternativa: ["146.9 milhões de km", "92.96 bilhões de km", "1.496 milhões de km", "149.6 milhões de km"]
   },
   {
     title: "Qual é a capital da Nova Zelândia?",
