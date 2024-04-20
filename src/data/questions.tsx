@@ -435,11 +435,6 @@ export const questions = [
     alternativa: ["3x^2", "x^2", "x^3", "3x"]
   },
   {
-    title: "Qual é a capital do Brasil?",
-    indexCorrect: 1,
-    alternativa: ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"]
-  },
-  {
     title: "Qual é o logaritmo na base 10 de 100?",
     indexCorrect: 2,
     alternativa: ["1", "2", "10", "100"]
