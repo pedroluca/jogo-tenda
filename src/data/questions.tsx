@@ -177,7 +177,7 @@ export const questions = [
   {
     title: "Quem criou as três leis: Princípio da Inércia, da dinâmica e da ação e reação no século XVII?",
     indexCorrect: 2,
-    alternativa: ["George Newton", "Frederic Newton", "Isaac Newton", "Robert Newton"]
+    alternativa: ["Isaac Bohr", "Albert Einstein", "Isaac Newton", "Ícaro Newton"]
   },
   {
     title: "A distância entre a cidade de Guanambi e Bom Jesus da Lapa é de aproximadamente 120 km. Um ônibus que sai de Guanambi com um grupo de romeiros às 9h e chega às 11h em Bom Jesus da Lapa, desenvolveu qual velocidade média?",
@@ -221,7 +221,7 @@ export const questions = [
   },
   {
     title: "Qual é o rio mais longo do mundo?",
-    indexCorrect: 1,
+    indexCorrect: 0,
     alternativa: ["Rio Amazonas", "Rio Nilo", "Rio Yangtzé", "Rio Mississippi"]
   },
   {
