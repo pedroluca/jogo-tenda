@@ -357,7 +357,7 @@ export const questions = [
   {
     title: "Qual é o elemento químico representado por 'He'?",
     indexCorrect: 0,
-    alternativa: ["Hélio", "Hidrogênio", "Hélio", "Hidrogênio"]
+    alternativa: ["Hélio", "Hidrogênio", "Oxigênio", "Néon"]
   },
   {
     title: "Qual é o planeta mais grande do sistema solar?",
